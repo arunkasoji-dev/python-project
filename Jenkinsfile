@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run Hello World') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\vvv\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
             }
         }
     }
